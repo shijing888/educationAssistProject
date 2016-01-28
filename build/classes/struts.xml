@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<package name="default" namespace="/" extends="struts-default">
+		<action name="login" class="loginAction">
+			<result name="error">/error.jsp</result>
+			<result name="success" type="redirectAction">
+				personalIndex
+				<!-- <param name="actionName">personalIndex</param> <param name="userIdentify">${userIdentify}</param> -->
+			</result>
+		</action>
+		<!-- 登录之后的个人页面的一些处理action -->
+		<action name="personalIndex" class="personalIndex">
+			<result name="error">/error.jsp</result>
+			<result name="success">/personalIndex.jsp</result>
+			<!-- <result name="admin">/admin.jsp</result> -->
+		</action>
+		<action name="personalIndex_getST" class="personalIndex"
+			method="getST">
+		</action>
+		<action name="personalIndex_getErrors" class="personalIndex"
+			method="getError">
+		</action>
+		<action name="personalIndex_selfCheck" class="personalIndex"
+			method="selfCheck">
+			<result name="success">/exam.jsp</result>
+		</action>
+		<action name="personalIndex_getItem" class="personalIndex"
+			method="getItem">
+		</action>
+		<action name="personalIndex_addError" class="personalIndex"
+			method="addError">
+		</action>
+	</package>
+</struts>    

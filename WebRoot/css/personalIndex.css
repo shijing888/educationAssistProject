@@ -1,0 +1,290 @@
+ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+img {
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hove {
+	color: #D00000;
+}
+
+h2 {
+	margin: 0px;
+	padding: 0px;
+	font-weight: normal;
+}
+
+#all {
+	width: 980px;
+	height: 1140px;
+	margin: 0px auto;
+	padding: 0px;
+}
+
+/*头部大层设计开始*/
+#all_top {
+	height: 200px;
+	width: 980px;
+	margin: 0px;
+	padding: 0px;
+	background: url(../images/top_bg.jpg) no-repeat top left;
+}
+/*头部大层设计结束*/
+/*主体内容设计开始*/
+#all_main {
+	width: 900px;
+	height: 800px;
+	margin: 10px auto 0px auto;
+	padding: 0px;
+}
+/*内容框公共设计开始*/
+.contentBox {
+	float: left;
+	width: 250px;
+	height: 245px;
+	margin-top: 0px;
+	margin-bottom: 15px;
+	padding: 0px;
+}
+
+.bt {
+	width: 250px;
+	height: 20px;
+	margin: 0px;
+	padding: 0px;
+}
+
+.bt .bt_left {
+	height: 20px;
+	width: 200px;
+	float: left;
+}
+
+.bt .bt_left h2 {
+	width: 140px;
+	height: 20px;
+	padding-left: 5px;
+	padding-right: 0px;
+	margin: 0px;
+}
+
+.bt .bt_left h2 .chinese {
+	font-family: "黑体";
+	font-size: 16px;
+	color: #D00000;
+}
+
+.bt .bt_left h2 .english {
+	margin-top: 2px;
+	margin-bottom: 0px;
+	font-family: "黑体";
+	font-size: 14px;
+	color: #CCCCCC;
+}
+/*内容公共部分设计开始*/
+.nr {
+	width: 210px;
+	height: 185px;
+	margin: 0px;
+	margin-top: 10px;
+	margin-bottom: 0px;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-family: "黑体";
+}
+
+.nr li {
+	width: 200px;
+	height: 15px;
+	margin: 0px;
+	border-bottom: 1px dotted #FF9900;
+	background: url(../images/list_style.gif) no-repeat center left;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	padding-left: 10px;
+	padding-right: 0px;
+}
+
+.nr li a {
+	font-family: "黑体";
+	color: #333333;
+	font-size: 13px;
+}
+
+.nr li a:hover {
+	color: #D00000;
+}
+/*内容公共部分设计结束*/
+
+/*左部设计开始*/
+#main_left {
+	float: left;
+	width: 270px;
+	height: 775px;
+	margin: 0px;
+	padding: 0px;
+}
+
+#left_loginer {
+	height: 140px;
+	width: 245px;
+	padding-left: 25px;
+	padding-right: 0px;
+	padding-top: 120px;
+	padding-bottom: 0px;
+	background: url(../images/left_loginer_bg.jpg) no-repeat left top;
+}
+
+#left_loginer .bt {
+	width: 200px;
+	height: 20px;
+	margin-left: 10px;
+	margin-right: 0px;
+	margin-top: 5px;
+	margin-bottom: 0px;
+}
+
+#left_loginer .nr {
+	width: 180px;
+	height: 90px;
+	margin: 5px 0px 0px 40px;
+	padding: 0px;
+}
+
+#left_loginer .nr div {
+	font-size: 14px;
+	height: 15px;
+	margin-top: 10px;
+	margin-bottom: 0px;
+	padding: 0px;
+}
+
+#left_hotresource {
+	height: 390px;
+	width: 245px;
+	margin-top: 10px;
+	margin-bottom: 0px;
+	padding-left: 25px;
+	padding-right: 0px;
+	padding-top: 60px;
+	padding-bottom: 0px;
+	background: url(../images/left_hotresource_bg.jpg) no-repeat left top;
+}
+
+#left_hotresource .bt {
+	width: 200px;
+}
+
+#left_hotresource i {
+	font-size: 10px;
+	font-family: "黑体";
+	float: right;
+}
+/*左部设计结束*/
+
+/*右部设计开始*/
+#main_right {
+	width: 540px;
+	height: 760px;
+	margin: 0px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 40px;
+	padding-bottom: 0px;
+	background: url(../images/main_right_bg.jpg) no-repeat left top;
+	float: right;
+}
+.s2 select{
+	width:100px;
+	float:left;
+}
+
+#selection {
+	height: 25px;
+	margin-top: 20px;
+}
+
+#selection .s1 {
+	width: 55px;
+	float: left;
+	margin:0 -5px 0 5px;
+}
+
+.dotDivide {
+	width: 100%;
+	height: 20px;
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-bottom: 5px;
+	border-bottom: 1px #666666 dotted;
+}
+
+#search {
+	width =45px;height =20px;
+}
+
+#selection div {
+	font-size: 14px;
+}
+
+#right_teachResources {
+	width: 540px;
+	height: 720px;
+}
+
+#right_teachResources .bt {
+	width: 300px;
+	margin-left: 20px;
+	margin-right: 0px;
+}
+
+#right_teachResources .bt_left {
+	width: 300px;
+}
+
+#right_teachResources .nr {
+	width: 500px;
+	height: 560px;
+}
+
+#right_teachResources .nr li {
+	width: 490px;
+	margin-top: 5px;
+	margin-bottom: 0px;
+}
+
+#resource_list i {
+	font-size: 10px;
+	font-family: "黑体";
+	float: right;
+}
+
+#fy {
+	width: 190px;
+	height: 20px;
+	margin: 20px 20px 0px 0px;
+	padding: 0px;
+	font-family: "黑体", Courier, monospace;
+	font-size: 15px;
+	float: right;
+}
+
+#fy #pre {
+	margin-right: 20px;
+	margin-left: 0px;
+}
+/*右部设计结束*/
+
+/*主体内容设计结束*/

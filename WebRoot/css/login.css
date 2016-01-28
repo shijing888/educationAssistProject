@@ -1,0 +1,213 @@
+#all
+{
+	width:100%;
+	font-family:"宋体";
+	font-size:15px;
+	color:#666666;
+	font-weight:normal;
+}
+body
+{
+	margin:0px;
+	padding:0px;
+}
+img
+{
+	margin:0px;
+	padding:0px;
+	border:0px;
+}
+a
+{
+	font-family:"宋体";
+	font-size:13px;
+	font-weight:normal;
+	color:#999999;
+	text-decoration:none;
+}
+a:hover
+{
+	color:#00FFFF;
+	text-decoration:underline;
+}
+/*头部大层设计开始*/
+#top
+{
+	width:1000px;
+	height:150px;
+	margin:auto;
+	padding-top:10px;
+	padding-bottom:0px;
+}
+#top_left
+{
+	width:500px;
+	height:150px;
+	margin:0px;
+	padding:0px;
+	background:url(../images/logo_bg.jpg) no-repeat top left;
+	float:left;
+}
+#logo
+{
+	width:170px;
+	height:40px;
+	margin:0px;
+	padding-top:25px;
+	padding-bottom:0px;
+	padding-left:30px;
+	padding-right:0px;
+	float:left;
+}
+#text
+{
+	width:200px;
+	height:30px;
+	margin-left:30px;
+	margin-right:0px;
+	margin-top:30px;
+	margin-bottom:0px;
+	padding:0px;
+	padding-left:20px;
+	padding-right:0px;
+	font-family:"宋体";
+	font-size:25px;
+	font-weight:bold;
+	color:#000000;
+	border-left:1px solid #CCCCCC;
+	float:left;
+}
+
+/*头部大层设计结束*/
+
+/*主体大层设计开始*/
+#main
+{
+	width:1000px;
+	height:360px;
+	margin:0px auto 0px auto;
+	padding:0px;
+}
+#main_left
+{
+	width:400px;
+	height:310px;
+	margin-left:100px;
+	margin-right:0px;
+	margin-top:40px;
+	margin-bottom:0px;
+	padding:0px;
+	float:left;
+}
+#main_right
+{
+	width:500px;
+	height:350px;
+	margin:0px;
+	padding:0px;
+	background:url(../images/login_bg.jpg) no-repeat top left;
+	float:right;
+}
+#input
+{
+	width:305px;
+	height:270px;
+	margin:0px;
+	padding-top:70px;
+	padding-bottom:0px;
+	padding-left:10px;
+	padding-right:10px;
+	float:right;
+}
+#tip
+{
+	width:200px;
+	height:15px;
+	margin-left:80px;
+	margin-right:0px;
+	padding:0px;
+}
+.hint
+{
+	width:200px;
+	height:15px;
+	font-family:"宋体";
+	font-size:13px;
+	font-weight:normal;
+	color:#FF0000;
+	margin:0px;
+	padding:0px;
+}
+.input
+{
+	width:300px;
+	height:30px;
+	margin-top:30px;
+	margin-bottom:0px;
+}
+.title
+{
+	width:50px;
+	height:30px;
+	font-family:"宋体";
+	margin:0px;
+	padding-left:20px;
+	padding-right:0px;
+	line-height:30px;
+	background:url(../images/info_input_icon.jpg) no-repeat left center;
+	float:left;
+}
+.input_box
+{
+	width:200px;
+	height:30px;
+	margin-left:10px;
+	margin-right:0px;
+	padding:0px;
+	float:left;
+}
+#input_name,#input_password{
+	width: 200px;
+	height: 30px;
+	font-size: 15px;
+	line-height: 30px;
+}
+#user_selection
+{
+	margin-top:30px;
+	margin-bottom:0px;
+	padding:0px;
+	width:300px;
+	height:20px;
+}
+.user_selection
+{
+	width:70px;
+	height:20px;
+	margin-left:25px;
+	margin-right:0px;
+	padding:0px;
+	float:left;
+}
+.submit{
+	width: 250px;
+	height: 35px;
+	float: left;
+	margin: 20px 0 0 55px;
+}
+#submit,#changepsw
+{
+	width:75px;
+	height:35px;
+	margin-left:20px;
+	float:left;
+	background:url(../images/login_btn_submit.jpg) no-repeat left top;
+}
+#changepsw
+{
+	background:url(../images/login_btn_changepsw.jpg) no-repeat left top;
+}
+/*主体大层设计结束*/
+
+
+

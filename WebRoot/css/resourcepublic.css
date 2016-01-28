@@ -1,0 +1,189 @@
+#all
+{
+	width:100%;
+	font-family:"黑体";
+	font-size:16px;
+	color:#333333;
+}
+body
+{
+	margin:0px;
+	padding:0px;
+}
+ul
+{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+}
+img
+{
+	margin:0px;
+	padding:0px;
+	border:0px;
+}
+a
+{
+	font-family:"黑体";
+	font-size:14px;
+	font-weight:normal;
+	color:#3366FF;
+	text-decoration:none;
+}
+a:hover
+{
+	color:#3399CC;
+	text-decoration:underline;
+}
+h2
+{
+	font-family:"黑体";
+	font-size:15px;
+	color:#000000;
+	margin:0px;
+	padding:0px;
+}
+h3
+{
+	font-family:"黑体";
+	font-size:13px;
+	font-weight:normal;
+	color:#3399CC;
+	margin:0px;
+	padding:0px;
+}
+#tip
+{
+	width:300px;
+	height:250px;
+	position:absolute;
+	top:80px;
+	right:210px;
+	z-index:1;
+}
+/*头部大层设计开始*/
+#top
+{
+	width:1000px;
+	height:150px;
+	margin:auto;
+	padding-top:10px;
+	padding-bottom:0px;
+}
+#top_left
+{
+	width:500px;
+	height:150px;
+	margin:0px;
+	padding:0px;
+	background:url(../images/logo_bg.jpg) no-repeat top left;
+	float:left;
+}
+#logo
+{
+	width:170px;
+	height:40px;
+	margin:0px;
+	padding-top:25px;
+	padding-bottom:0px;
+	padding-left:30px;
+	padding-right:0px;
+	float:left;
+}
+#text
+{
+	width:200px;
+	height:30px;
+	margin-left:30px;
+	margin-right:0px;
+	margin-top:30px;
+	margin-bottom:0px;
+	padding:0px;
+	padding-left:20px;
+	padding-right:0px;
+	font-family:"宋体";
+	font-size:25px;
+	font-weight:bold;
+	color:#000000;
+	border-left:1px solid #CCCCCC;
+	float:left;
+}
+#login
+{
+	width:250px;
+	height:20px;
+	margin-top:25px;
+	margin-bottom:0px;
+	padding:0px;
+	float:left;
+	line-height:20px;
+}
+/*头部大层设计结束*/
+#main
+{
+	width:980px;
+	overflow-y:hidden;
+	margin:30px auto 0px auto;
+	padding:0px;
+}
+#main li
+{
+	width:970px;
+	height:30px;
+	margin-top:0px;
+	margin-bottom:50px;
+	float:left;
+}
+.title
+{
+	width:90px;
+	height:30px;
+	font-family:"黑体";
+	margin:0px;
+	padding-left:20px;
+	padding-right:0px;
+	line-height:30px;
+	background:url(../images/info_input_icon.jpg) no-repeat left center;
+	float:left;
+}
+.input
+{
+	margin-left:10px;
+	margin-right:0px;
+	padding:0px;
+	float:left;
+}
+.hint
+{
+	width:500px;
+	height:30px;
+	margin-left:20px;
+	margin-right:0px;
+	padding-left:25px;
+	padding-right:0px;
+	line-height:30px;
+	float:left;
+}
+#submit
+{
+	background:url(../images/info_input_next1.jpg) no-repeat top left;
+}
+#submit:hover
+{
+	background:url(../images/info_input_next2.jpg) no-repeat top left;
+}
+
+#footer
+{
+	width:1000px;
+	height:20px;
+	margin:30px auto 30px auto;
+	padding:0px;
+	line-height:20px;
+	text-align:center;
+	font-family:"黑体";
+	font-size:13px;
+	color:#999999;
+}
+
+

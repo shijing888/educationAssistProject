@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Struts2Diagram version="2.0">
+  <package name="default" location="36,30" size="249,89">
+    <action name="login" location="109,23" size="107,35">
+      <result name="inpput">
+        <resourceEdge source="inpput" routing="0" target="index.jsp" />
+      </result>
+    </action>
+  </package>
+  <webResource name="index.jsp" path="/index.jsp" location="357,34" size="150,55" />
+</Struts2Diagram>
+
